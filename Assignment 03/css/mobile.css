@@ -1,0 +1,132 @@
+/* dien thoai doc */
+@media only screen and (min-width: 359px) and (max-width: 414px) {
+  /* banner */
+  #banner h1 {
+    text-align: center;
+  }
+
+  /* about */
+  #nav-bar img {
+    display: none;
+  }
+
+  #nav-bar > .container .avartar {
+    margin-top: -10px;
+    height: 0;
+  }
+
+  #nav-bar > .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav-bar > .container a {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: start;
+    width: 35%;
+    margin: 0 auto;
+    border-left: none;
+  }
+
+  #nav-bar > .container a span {
+    grid-area: 1/2/2/3;
+  }
+
+  /* about */
+  .info {
+    display: block;
+  }
+
+  /* job */
+  #job-info,
+  .box-pro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 40px;
+    row-gap: 30px;
+  }
+
+  .desc-info h1 {
+    font-size: 29px;
+  }
+
+  .desc-job h3 {
+    font-size: 19px;
+  }
+
+  .JLPT {
+    margin-top: 15px;
+  }
+
+  /* certificate */
+  #certificate h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .CC-Group {
+    display: block;
+  }
+
+  .barie {
+    border-right: none;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .CC {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .CC img {
+    width: 100%;
+    height: auto;
+  }
+
+  .CC h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+  }
+
+  /* project */
+  .name-pro,
+  .year,
+  table,
+  .table {
+    border: 1px solid #c6c6c6;
+  }
+  .year {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: max-content;
+    padding: 15px 0px;
+    gap: 15px;
+  }
+
+  .icon-lamp {
+    margin-bottom: -6px;
+  }
+
+  table {
+    margin-top: 35%;
+  }
+
+  /* footer */
+  #footer ul {
+    width: 45%;
+  }
+}
